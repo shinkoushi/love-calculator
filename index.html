@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Cinta</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <div class="title">
+        <h1>Kalkulator <span>Cinta</span></h1>
+        <div class="heart"></div>
+    </div>
+
+    <div class="container">
+
+        <div class="inputarea">
+            <input type="text" placeholder="Nama Kamu" id="NameOne" onfocus="this.value = ''" >
+            <p>❤️</p>
+            <input type="text" placeholder="Nama Dia" id="NameTwo" onfocus="this.value = ''">
+        </div>
+
+        <div class="hitung" onclick="love()"><p>Lihat Hasil</p></div>
+
+    </div>
+
+    <div class="progress">
+        <div class="progress-done" data-done="80">
+        </div>
+    </div>
+
+    <div class="result">
+   <p id="print">Hitung seberapa besar cinta kamu dan dia</p>
+   <p id="statement"></p>
+</div>
+
+<p class="cr"> ©️ shinkoushi dibuat dengan penuh ❤️</p>
+
+   <script src="script.js"></script>
+</body>
+</html>
