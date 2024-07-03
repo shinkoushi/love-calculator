@@ -76,7 +76,7 @@ body{
     border: 2px solid #ff686b;
     border-radius: 10px;
     padding: 20px 20px;
-    width: 25rem;
+    width: 23rem;
    
 }
 .inputarea{
@@ -112,8 +112,8 @@ body{
     transition: 0.8s;
 }
 .progress {
-    position: relative; /* changed from absolute to relative */
-    width: 400px; /* set a fixed width for the progress bar container */
+    position: relative; 
+    width: 23rem; 
     height: 30px;
     border-radius: 10px;
     background-color: #ddd;
@@ -130,9 +130,9 @@ body{
     border-radius: 10px;
     display: grid;
     place-items: center;
-    width: 0%; /* set the initial width to 0% */
+    width: 0%; 
     box-shadow:  0 0 25px #f20044;
-    transition: width 0.5s ease;
+    transition: width 1s ease;
    
 }
 .result {
@@ -140,13 +140,13 @@ body{
     padding: 30px 20px;
     border-radius: 5px;
     font-weight: bold;
-    width: 25rem;
+    width: 23rem;
     background-color: #ff686b;
     color: white;
 }
 #print{
     margin-bottom: 10px;
-    font-size: 17px;
+    font-size: 15px;
     font-family: "Playwrite DE Grund", cursive;
 }
 #statement{
@@ -154,4 +154,22 @@ body{
 }
 .cr{
     opacity: 0.8;
+    margin-top: 20px    ;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%; 
+    }
+    .result {
+        width: 90%; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 95%; 
+    }
+    .result {
+        width: 95%;
+    }
 }
